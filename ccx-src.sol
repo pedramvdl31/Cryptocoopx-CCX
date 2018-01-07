@@ -20,10 +20,10 @@ contract owned {
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
 
 contract CCXTokenERC20 {
-    string public constant _myTokeName = 'CCX';
-    string public constant _mySymbol = 'x4';
-    uint public constant _myinitialSupply = 100000;
-    uint8 public constant _myDecimal = 18;
+    string public constant _myTokeName = 'CryptoCoop Token';//change here
+    string public constant _mySymbol = 'CCX';//change here
+    uint public constant _myinitialSupply = 100000;//leave it
+    uint8 public constant _myDecimal = 18;//leave it
     // Public variables of the token
     string public name;
     string public symbol;
