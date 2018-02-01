@@ -51,6 +51,7 @@ contract CCXTokenERC20 {
         string tokenName,
         string tokenSymbol
     ) public {
+        decimals = _myDecimal;
         totalSupply = _myinitialSupply * (10 ** uint256(_myDecimal));  // Update total supply with the decimal amount
         balanceOf[msg.sender] = totalSupply;                // Give the creator all initial tokens
         name = _myTokeName;                                   // Set the name for display purposes
