@@ -2,7 +2,7 @@
 Cryptocurrency base code. Ethereum smart contract.
 
 
-<h1>What Did I learned</h1>  
+<h1>What Did I learn?</h1>  
 <ul>
     <li>MetaMax</li>
     <li>Solidity programming language</li>
